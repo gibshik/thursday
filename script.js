@@ -7,7 +7,7 @@ setInterval(slideBySlide, 3000)
 
 function slideBySlide() {
 
-    for (i = 0; i < imagesSlides.length; i++) {
+    for (let i = 0; i < imagesSlides.length; i++) {
         if (activeSlide === imagesSlides[i]) {
 
 
